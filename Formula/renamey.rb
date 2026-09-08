@@ -13,6 +13,6 @@ class Renamey < Formula
   end
 
   test do
-    assert_match "Usage:", shell_output("#{bin}/renamey --help 2>&1")
+    assert_match "usage: renamey", shell_output("#{bin}/renamey --help")
   end
 end
