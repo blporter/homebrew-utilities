@@ -5,8 +5,8 @@ class Renamey < Formula
   sha256 "6e5b540b853e4786b6a8e30d08e6fc02f5e9ef7e2a33ea8571c889a28c421b73"
 
   bottle do
-    root_url "https://github.com/blporter/homebrew-utilities/releases/download/renamey-1.0.0"
-    sha256 cellar: :any, arm64_tahoe: "bbf7155e48c06848da8f8d3c5c54de50ef57e5a38c7e75411e7c2d270099519c"
+    root_url "https://github.com/blporter/homebrew-utilities/releases/download/renamey-1.1.0"
+    sha256 cellar: :any, arm64_tahoe: "cb43c4e0556ca756c203e0aed6a398cbd77b292f2cc57ed2d7cb2da91712f18d"
   end
 
   depends_on arch: :arm64
